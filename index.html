@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Purple & White Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #4B0082; /* Purple background */
+            color: white;
+            margin: 0;
+            padding: 20px;
+            text-align: center;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        .gallery img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+            border: 5px solid white;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+        h1 {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Purple & White Image Gallery</h1>
+    <div class="gallery">
+        <img src="./pic.jpg" alt="Image 1">
+        <img src="./1669778921013.jpg" alt="Image 2">
+        <img src="./Screenshot_20221004-155226_2.png" alt="Image 3">
+        <img src="./1670646603104_1.jpg" alt="Image 4">
+        <img src="./Screenshot_20241229-162425.png" alt="Image 5">
+        <img src="./Screenshot_20241209-182139.png" alt="Image 6">
+        <img src="./Screenshot_20241129-193539.png" alt="Image 7">
+        <img src="./Screenshot_20240323-000849.png" alt="Image 8">
+        <img src="./Screenshot_20231205-183611.png" alt="Image 9">
+        <img src="./Screenshot_20230709-125637_1.png" alt="Image 10">
+    </div>
+</body>
+</html>
